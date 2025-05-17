@@ -42,6 +42,22 @@
   margin-top: 8px;
   font-size: 1em;
 }
+
+    .video-responsive {
+  width: 100%;
+  max-width: 500px; /* or your preferred max width */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* For very large screens, reduce the max width if you want it even smaller */
+@media (min-width: 1200px) {
+  .video-responsive {
+    max-width: 350px; /* adjust as desired for large screens */
+  }
+}
   </style>
 </head>
 <body>
