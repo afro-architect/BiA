@@ -1022,6 +1022,46 @@ Craftivism
       <div class="modal-body">
         <img src="img/tea.png" style="width:30%;">
         <!-- Add your content here -->
+        <!--button for responses -->
+        <p>What got YOU interested in architecture? Feel free to share your story via text or mp3 at: <a href="theafroarchitect@gmail.com"> monicaleslie.pro@gmail.com </a>! </p>
+&nbsp; <p>I look forward to sharing your responses</p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    &nbsp;
+    Contact Form
+  </a>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="mb-3">
+          <label for="fname" class="form-label">What Should We Call You?</label>
+          <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <div class="mb-3">
+          <label for="lname" class="form-label">Pronouns?</label>
+          <input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+        <div class="mb-3">
+          <label for="request" class="form-label">How Was Your Experience in Architecture School</label>
+          <select id="request" name="request[]" class="form-select" multiple size="5">
+  <option value="positive_experience">I had a wonderful time in architecture school</option>
+  <option value="Event">Architecture School was a mixed bag but I got what I could from the experience</option>
+  <option value="Inquiry">I did not enjoy architecture school</option>
+  <option value="Volunteer">I learned more from my peers than from the program itself and that helped</option>
+  <option value="Other">I haven't been to architecture school</option>
+</select>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <textarea id="subject" name="subject" class="form-control" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div>&nbsp;</div>
       </div>
     </div>
   </div>
