@@ -957,7 +957,7 @@ Craftivism
          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">         
         <figure class="image-caption-wrapper">
 <img src="img/tea.png" class="img-responsive" alt="Image"
-             data-toggle="modal" data-target="#M12Modal" style="cursor:pointer;"> 
+             data-toggle="modal" data-target="#M12AModal" style="cursor:pointer;"> 
 
 <figcaption class="caption-left">What to Do if You Find Yourself in a Toxic Learning Environment</figcaption> </figure>
       </div>
@@ -1290,7 +1290,63 @@ Craftivism
     </div>
   </div>
 </div>
+<!-- Module 12 Modal (Image 1) -->
+<div class="modal fade" id="M12AModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: relative; z-index: 100;">
+  <span aria-hidden="true">&times;</span>
+</button>
+        <h4 class="modal-title" id="M12AModalLabel">Why Become an Architect?</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/tea.png" style="width:30%;">
+        <!-- Add your content here -->
+        <!--button for responses -->
+        <p>What got YOU interested in architecture? Feel free to share your story via text or mp3 at: <a href="theafroarchitect@gmail.com"> monicaleslie.pro@gmail.com </a>! </p>
+&nbsp; <p>I look forward to sharing your responses</p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    &nbsp;
+    Contact Form
+  </a>
 
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="mb-3">
+          <label for="fname" class="form-label">What Should We Call You?</label>
+          <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <div class="mb-3">
+          <label for="lname" class="form-label">Pronouns?</label>
+          <input type="text" class="form-control" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+        <div class="mb-3">
+          <label for="request" class="form-label">How Was Your Experience in Architecture School</label>
+          <select id="request" name="request[]" class="form-select" multiple size="5">
+  <option value="positive_experience">I had a wonderful time in architecture school</option>
+  <option value="Event">Architecture School was a mixed bag but I got what I could from the experience</option>
+  <option value="Inquiry">I did not enjoy architecture school</option>
+  <option value="Volunteer">I learned more from my peers than from the program itself and that helped</option>
+  <option value="Other">I haven't been to architecture school</option>
+</select>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <textarea id="subject" name="subject" class="form-control" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div>&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
