@@ -26,9 +26,10 @@
       padding: 25px;
     }
     .img-responsive {
-      display: flex;
-            justify-content: center;
-            width: 30%;
+  max-width: 100%; /* Ensure images scale */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center images */
+}
 
       .image-caption-wrapper {
   display: flex;
@@ -97,8 +98,8 @@
   <br> <br></div></div>
 
    <div class="container-fluid bg-3 text-center">    
-    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="row">
+        <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
       <h3>What I wish I Had Known</h3><br>
       <div>
         <figure class="image-caption-wrapper">
@@ -136,59 +137,68 @@
 <!--Module 1 -->
 <div class="container-fluid bg-3 text-center"> 
   <h2>Module 1</h2>   
+      <div class="row">
+        <!--image 1 -->
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-    <div class="row">
       <h3>What You Will Learn</h3><br>
-      <div>
   <figure class="image-caption-wrapper">
     <img src="img/tea.png" class="img-responsive" alt="Image"
 data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;">
     <figcaption class="caption-left">What is Architecture</figcaption>
   </figure>
 </div>
+<!--image 2 -->
 
-
-      <div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
        <figure class="image-caption-wrapper">
   <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;">
 
         <figcaption class="caption-left">What Does an Architect DO? </figcaption> </figure>
       </div>
-      <div>
+      <!--image 3 -->
+
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
        <figure class="image-caption-wrapper">
  <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;"> 
 
 <figcaption class="caption-left">What Kind of Skills Will You Need to Become an Architect? </figcaption> </figure>
       </div>
-      <div>
+      <!--image 4 -->
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
        <figure class="image-caption-wrapper">
  <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;"> 
-
 <figcaption class="caption-left">Getting Into Architecture School</figcaption> </figure>
       </div>
-            <div class="container-fluid bg-3 text-center">    
-       <div>
-      <figure class="image-caption-wrapper">
+
+         <div class="row">
+        <!--image 1 -->
+         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">   
+        <figure class="image-caption-wrapper">
   <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;"> 
-
 <figcaption class="caption-left">Finding Institutional Support</figcaption> </figure>
       </div>
-      <div>
+         </div>     
+      <!--image 2 -->
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
        <figure class="image-caption-wrapper">
  <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;"> 
 
         <figcaption class="caption-left">Finding Funding</figcaption> </figure>
       </div>
-      <div>
+      <!--image 3 -->
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
         <figure class="image-caption-wrapper">
 <img src="img/tea.png" class="img-responsive" alt="Image"
              data-toggle="modal" data-target="#M1Modal" style="cursor:pointer;"> 
-
+          </div>
+ <!--image 4 -->
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <figcaption class="caption-left">What Happens After Architecture School & How to Make the Most of Your Experience</figcaption> </figure>
       </div>
       <div>
