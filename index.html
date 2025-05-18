@@ -104,6 +104,16 @@
   color: #fff;
   text-decoration: underline;
 }
+    #carouselCoping .carousel-inner > .item > img,
+#carouselCoping .carousel-inner > .item > video {
+  width: 100%;
+  max-height: 320px;   /* Adjust as needed for your design */
+  min-height: 200px;   /* Optional: ensures a minimum height */
+  object-fit: cover;   /* Ensures images/videos fill the area without distortion */
+  margin: 0 auto;
+  display: block;
+  background: #222;    /* Optional: background color for letterboxing */
+}
   </style>
 </head>
 <body>
