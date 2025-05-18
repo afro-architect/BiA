@@ -1314,17 +1314,18 @@ Craftivism
         <!-- Collapsible Contact Form -->
         <div class="collapse" id="collapseM12A" style="margin-top:15px;">
           <div class="card card-body">
-            <form action="/action_page.php">
+            <form action="/action_page.php" method="post" enctype="multipart/form-data">
               <div class="mb-3">
                 <label for="fnameM12A" class="form-label">What Should We Call You?</label>
                 <input type="text" class="form-control" id="fnameM12A" name="firstname" placeholder="Your name..">
               </div>
               <div class="mb-3">
                 <label for="lnameM12A" class="form-label">Pronouns?</label>
-                <input type="text" class="form-control" id="lnameM12A" name="lastname" placeholder="Your last name..">
+                <input type="text" class="form-control" id="lnameM12A" name="lastname" placeholder="she/her, he/him,, they/them, etc.">
               </div>
               <div class="mb-3">
-                <label for="requestM12A" class="form-label">How Was Your Experience in Architecture School</label>
+                <label for="requestM12A" class="form-label">How Was Your Experience in Architecture School?</label><br>
+                <p>Hold CTRL+ to select multiple responses. Feel Free to Select All that Apply</p>
                 <select id="requestM12A" name="request[]" class="form-select" multiple size="5">
                   <option value="positive_experience">I had a wonderful time in architecture school</option>
                   <option value="Event">Architecture School was a mixed bag but I got what I could from the experience</option>
@@ -1334,9 +1335,18 @@ Craftivism
                 </select>
               </div>
               <div class="mb-3">
-                <label for="subjectM12A" class="form-label">Subject</label>
-                <textarea id="subjectM12A" name="subject" class="form-control" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="subjectM12A" class="form-label">What was your experience like</label>
+                <textarea id="subjectM12A" name="subject" class="form-control" placeholder="Share as Much or As Little as You'd Like..." style="height:200px"></textarea>
               </div>
+              <div class="mb-3">
+    <label for="imageUpload" class="form-label">Upload an Image (optional)</label>
+    <input type="file" class="form-control" id="imageUpload" name="imageUpload" accept="image/*">
+  </div>
+              
+  <div class="mb-3">
+    <label for="audioUpload" class="form-label">Upload an Audio File (optional)</label>
+    <input type="file" class="form-control" id="audioUpload" name="audioUpload" accept="audio/*">
+  </div>
               <button type="submit" class="btn btn-success">Send</button>
             </form>
           </div>
