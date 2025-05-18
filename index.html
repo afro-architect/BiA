@@ -93,6 +93,17 @@
   position: relative;
   z-index: 1;
 }
+
+    .carousel-header {
+  font-size: 1.25em;      /* Adjust as needed */
+  font-weight: bold;      /* Makes it header-like */
+  color: #fff;            /* Ensures text is visible */
+  text-shadow: 1px 1px 2px #000; /* Optional: improves readability */
+}
+.carousel-header a {
+  color: #fff;
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
@@ -467,9 +478,10 @@ data-toggle="modal" data-target="#M1AModal" style="cursor:pointer;">
       <img src="img/Bandcamp_profile_pic.png" alt="...">
     </div>
     <div class="carousel-caption">
+      <span class="carousel-header">
     <a href="https://afro-architect.github.io/15-portfolio/" target="_blank" style="color: #fff; text-decoration: underline;">
       Check Out More Creative Projects
-    </a>
+    </a> </span>
   </div>
   <a class="left carousel-control" href="#carouselCoping" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
